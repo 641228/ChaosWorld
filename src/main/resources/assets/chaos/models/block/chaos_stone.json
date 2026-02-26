@@ -1,0 +1,19 @@
+{
+  "type": "chaos:chaos_dim",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:void",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "chaos:chaos_biome"
+    }
+  },
+  "has_skylight": true,
+  "has_ceiling": false,
+  "ultrawarm": false,
+  "coordinate_scale": 1.0,
+  "ambient_light": 0.5,
+  "bed_works": false,
+  "respawn_anchor_works": true,
+  "has_raids": false
+}
